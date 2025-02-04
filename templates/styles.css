@@ -108,3 +108,8 @@ tr:hover {
 ::-webkit-scrollbar-thumb:hover {
   background: #1976d2;
 }
+
+#trend-card {
+  padding: 5px;
+  border-radius: 100%;
+}
