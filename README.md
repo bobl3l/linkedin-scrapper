@@ -1,4 +1,10 @@
 # LinkedIn Job Scraper
+
+Python
+BeautifulSoup
+Pandas
+Plotly
+
 This is a personal project to scrape and analyze job postings from LinkedIn. The goal is to understand the demand for specific roles, programming languages, and technologies in the job market. The project uses BeautifulSoup for web scraping, Pandas for data processing, and Plotly for visualization.
 
 # Project Overview
