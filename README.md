@@ -14,41 +14,6 @@ Analysis: Analyzes job demand for roles, languages, and technologies.
 
 Visualization: Generates interactive bar charts to visualize trends.
 
-# How It Works
-Scraping Job Postings:
-
-The script scrapes job postings from LinkedIn using BeautifulSoup.
-
-It extracts details like job title, company name, location, and job description.
-
-Analyzing Data:
-
-The script analyzes the scraped data to count the number of job postings for specific roles, languages, and technologies.
-
-Example:
-
-python
-Copy
-role_number = {}
-for div in divisions:
-    role_number[div] = numbers_scrapper(div).replace(",", "")
-    role_number[div] = int(role_number[div])
-Visualizing Results:
-
-The script generates interactive bar charts using Plotly to visualize the results.
-
-Example:
-
-python
-Copy
-fig = go.Figure(go.Bar(
-    y=labels,
-    x=values,
-    orientation='h',
-    marker=dict(color="steelblue")
-))
-fig.show()
-
 # Data Analysis
 The project analyzes the following:
 
