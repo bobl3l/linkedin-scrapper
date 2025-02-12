@@ -1,17 +1,17 @@
-#LinkedIn Job Scraper
+# LinkedIn Job Scraper
 This is a personal project to scrape and analyze job postings from LinkedIn. The goal is to understand the demand for specific roles, programming languages, and technologies in the job market. The project uses BeautifulSoup for web scraping, Pandas for data processing, and Plotly for visualization.
 
-#Project Overview
+# Project Overview
 This project scrapes job postings from LinkedIn for specific roles, programming languages, and technologies. It then analyzes the data to identify trends in job demand and visualizes the results using interactive charts.
 
-#Key Features:
+# Key Features:
 Scraping: Collects job postings from LinkedIn.
 
 Analysis: Analyzes job demand for roles, languages, and technologies.
 
 Visualization: Generates interactive bar charts to visualize trends.
 
-#How It Works
+# How It Works
 Scraping Job Postings:
 
 The script scrapes job postings from LinkedIn using BeautifulSoup.
@@ -46,7 +46,7 @@ fig = go.Figure(go.Bar(
 ))
 fig.show()
 
-#Data Analysis
+# Data Analysis
 The project analyzes the following:
 
 Roles: Cyber Security, Cloud, Data Analyst, Full Stack, Frontend, Backend, QA/Test, DevOps, Web, Mobile, System Administrator, Quant, AI.
@@ -55,7 +55,7 @@ Languages: JavaScript, TypeScript, HTML/CSS, SQL, Python, Java, C++, C#, Ruby, K
 
 Technologies: React, Next.js, LLM, AI, CMS, WordPress, AWS, Node.js, Angular, Redux, Django, Flask, .NET, Spring, Vue, Express.js.
 
-#Visualizations
+# Visualizations
 The project generates the following visualizations:
 
 Roles: A horizontal bar chart showing the number of job postings for each role.
@@ -64,7 +64,7 @@ Languages: A horizontal bar chart showing the number of job postings for each pr
 
 Technologies: A horizontal bar chart showing the number of job postings for each technology.
 
-Notes
+# Notes
 Ethical Scraping: Be mindful of LinkedIn's terms of service and avoid overloading their servers. Add delays between requests to scrape responsibly.
 
 Limitations: The script may need adjustments if LinkedIn changes its website structure.
